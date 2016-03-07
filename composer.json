@@ -1,6 +1,9 @@
 {
     "name": "camilord/xsql",
     "description": "xSQL is a wrapper of PDO MySQL",
+    "type": "library",
+    "keywords": ["sql", "mysql", "xsql"],
+    "license": "MIT",
     "require": {
         "php": ">=5.0.0"
     }
