@@ -3,7 +3,7 @@ xSQL
 
 Usage Guide:
 
-<pre>
+```php
 $sql = new xSQL();
 
 /**
@@ -60,4 +60,4 @@ $new_id = $sql->last_id();
  * update an entry
  */
 $sql->inset("UPDATE table_name SET password = ? where username = ?", array(md5('secret_password'), 'foobar'));
-</pre>
+```
