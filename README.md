@@ -50,7 +50,7 @@ if ($sql->num_rows() > 0) {
 /**
  * insert a row
  */
-$sql->inset("INSERT INTO table_name (name, address) VALUES (?,?)", array('Juan' , 'Bonifacio Avenue, Cagayan De Oro City'));
+$sql->insert("INSERT INTO table_name (name, address) VALUES (?,?)", array('Juan' , 'Bonifacio Avenue, Cagayan De Oro City'));
 
 // get last insert id...
 $new_id = $sql->last_id();
@@ -59,5 +59,5 @@ $new_id = $sql->last_id();
 /**
  * update an entry
  */
-$sql->inset("UPDATE table_name SET password = ? where username = ?", array(md5('secret_password'), 'foobar'));
+$sql->update("UPDATE table_name SET password = ? where username = ?", array(md5('secret_password'), 'foobar'));
 ```
