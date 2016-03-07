@@ -1,6 +1,6 @@
 {
     "name": "camilord/xsql",
-    "description": "xSQL is a wrapper of MySQLi",
+    "description": "xSQL is a wrapper of PDO MySQL",
     "require": {
         "php": ">=5.0.0"
     }
