@@ -1,6 +1,8 @@
 xSQL
 ====
 
+Usage Guide:
+
 <pre>
 $sql = new xSQL();
 
