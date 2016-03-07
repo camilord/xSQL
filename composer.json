@@ -1,0 +1,7 @@
+{
+    "name": "camilord/xsql",
+    "description": "xSQL is a wrapper of MySQLi",
+    "require": {
+        "php": ">=5.0.0"
+    }
+}
